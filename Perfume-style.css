@@ -1,0 +1,134 @@
+body {
+    background-color: papayawhip;
+
+}
+
+
+
+.main-sect {
+    
+    width: 600px;
+    height: 400px;
+    display: flex;
+    border-radius: 30px;
+    position: relative;
+    right: -30%;
+    top: 100px;
+    
+
+    
+}
+
+.pic {
+    
+    width: 50%;
+    height: 100%;
+    background-image: url("image-product-desktop.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.info {
+      
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.inside-card {
+    
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+}
+.perfume {
+    
+    width: 100%;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    font-size: 10px;
+    color: gray;
+}
+
+.product-name {
+    
+    width: 215px;
+    height: 90px;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    
+    line-height: 30px;
+    font-weight: bolder;
+    
+    
+}
+.product-description {
+    
+    width: 90%;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    font-size: 13px;
+    line-height: 22px;
+    
+}
+
+.price {
+    
+    width: 100%;
+    height: 100px;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #61876E;
+    padding-top: 5%;
+    
+}
+
+.promo {
+    color: gray;
+    
+    display: inline-block;
+    text-align: right;
+    font-size: 12px;
+    text-decoration: line-through;
+    position: relative;
+    top: -5px;
+    right: -20px;
+}
+
+.buy-button {
+    
+    width: 100%;
+    height: 100px;
+    
+}
+
+
+button {
+    background-color: #61876E;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+    width: 100%;
+    height: 95%;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
